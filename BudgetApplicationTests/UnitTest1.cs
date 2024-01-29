@@ -26,7 +26,13 @@ namespace BudgetApplicationTests
         [TestCase(1)]
         public async Task GetAllIncome_ReturnAllIncome(int userId)
         {
-
+            var userId = 1;
+            var transactions = new List<Transaction>
+            {
+                new Transaction { UserId = userId, Type = TransactionType.Income, Amount = 100.0 },
+                new Transaction { UserId = userId, Type = TransactionType.Expense, Amount = 50.0 },
+                new Transaction { UserId = userId, Type = TransactionType.Income, Amount = 75.0 },
+            };
         }
     }
 }

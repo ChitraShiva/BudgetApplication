@@ -1,1 +1,1 @@
-# BudgetApplication
+Main Goal of this Budgeting Application is to calculate the total expense and total income of a user and also it tells the user in detail about the expense and income for him in an particular monthly wise or  quartely wise or half yearly wise or yearly wise . Here for backend i have created api's using ASP .NET core web api and send these api's for frontend to use these  to fetch the data's from database.Here i have use SQLServer database which consists of BudgetApplication Database and inside that i have created two tables to store the data's.
